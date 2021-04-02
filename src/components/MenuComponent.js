@@ -52,7 +52,7 @@ class Menu extends Component {
         // refer to the array of javaScript object by the following method 
         const menu = this.state.dishes.map((dish) => {
             return (
-                <div key = {div.id} className = "col-12 mt-5">
+                <div key = {dish.id} className = "col-12 mt-5">
                     <Media tag = "li">
                         <Media left middle>
                             <Media object src = {dish.image} alt = {dish.name}/>
